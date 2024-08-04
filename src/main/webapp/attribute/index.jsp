@@ -47,7 +47,7 @@
 	
 	<hr>
 	
-	application에 영역에 추가한 값: <%=application.getAttribute("fruit") %> <br>
+	application 영역에 추가한 값: <%=application.getAttribute("fruit") %> <br>
 	session 영역에 추가한 값: <%=session.getAttribute("fruit") %> <br>
 	request 영역에 추가한 값: <%=request.getAttribute("fruit") %> <br>
 	pageContext 영역에 추가한 값: <%=pageContext.getAttribute("fruit") %> <br>
